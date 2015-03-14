@@ -9,7 +9,7 @@ public class GenerateExcelIndex {
 	private static String calculateColLetters(int index) {
 		String colLetters = "";
 		while (index >= 0) {
-			colLetters = (char) ((index % 26) + 64) + colLetters;
+			colLetters = (char) ((index % 26) + 65) + colLetters;
 			index = (index / 26) - 1;
 		}
 
