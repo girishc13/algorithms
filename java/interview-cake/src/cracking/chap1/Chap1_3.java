@@ -1,4 +1,4 @@
-package cracking;
+package cracking.chap1;
 
 import java.util.Arrays;
 

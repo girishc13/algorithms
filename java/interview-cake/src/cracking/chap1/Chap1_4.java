@@ -1,4 +1,4 @@
-package cracking;
+package cracking.chap1;
 
 public class Chap1_4 {
 
