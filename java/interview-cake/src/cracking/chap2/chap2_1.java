@@ -15,6 +15,10 @@ public class chap2_1 {
 		list = createSinglyLinkedList();
 		list.removeDupsNoBuf();
 		list.printList();
+
+		// for (int i = 0; i < 100; i++) {
+		// System.out.println("" + (100 - i));
+		// }
 	}
 
 	private static SinglyLinkedList createSinglyLinkedList() {
