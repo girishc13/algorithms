@@ -3,6 +3,7 @@ package cracking.chap2;
 public class Node {
 
 	Node next = null;
+	Node prev = null;
 	int data;
 
 	public Node(int d) {
