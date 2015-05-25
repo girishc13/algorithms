@@ -69,4 +69,12 @@ public class Stack<T> {
 		size--;
 		return (T) b.data;
 	}
+
+	public void printStack() {
+		Node currTop = top;
+		while (currTop != null) {
+			System.out.println(currTop.data);
+			currTop = currTop.below;
+		}
+	}
 }
