@@ -2,9 +2,9 @@ package cracking.chap2;
 
 public class Node {
 
-	Node next = null;
-	Node prev = null;
-	int data;
+	public Node next = null;
+	public Node prev = null;
+	public int data;
 
 	public Node(int d) {
 		data = d;
@@ -18,5 +18,10 @@ public class Node {
 			n = n.next;
 		}
 		n.next = end;
+	}
+
+	@Override
+	public String toString() {
+		return "Data: " + data;
 	}
 }
